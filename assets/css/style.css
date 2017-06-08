@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid gray;
+}
+
+body {
+  background-image: url();
+}
+
+header {
+  position: fixed; /*position agar tidak terpengaruh*/
+  background-color: black;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+}
+
+header nav {
+  width: 50%;
+}
+
+header nav li {
+  display: inline-block; /* membuat */
+}
+
+header nav li a {
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  padding-top: 100px; /*karen container masih satu eksatuan dalam body */
+  background-color: : ;
+  width: 1000px;
+  margin: auto; /* membuat tengah suatu elemt */
+  height: 700px;
+}
+
+.left_container {
+  background-color: #ccc;
+  height: 200px;
+  width: 300px;
+  float: left; /*  ngambang ke kiri*/
+}
+
+.right_container {
+  background-color: #ccc;
+  width: 600px; /* jika tidak di kasih width maka width default adalah 100% */
+  float: right; /*  ngambang ke kanan*/
+}
+
+.right_container p {
+  line-height: 20px;
+}
